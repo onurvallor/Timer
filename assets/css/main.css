@@ -1,0 +1,53 @@
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.app .timer {
+  text-align: center;
+  color: white;
+  width: 150px;
+  padding: 15px;
+  background-color: #f57b51;
+  border-radius: 3px 3px 0 0;
+}
+
+.app .buttons {
+  text-align: center;
+  width: 160px;
+  padding: 10px;
+  background: #f6eedf;
+  border-radius: 0 0 3px 3px;
+}
+
+.app .stop, .app .start, .app .reset {
+  border-style: none;
+  border-radius: 3px;
+  background-color: #f57b51;
+  color: white;
+  padding: 5px 7px;
+  -webkit-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.app .reset:disabled {
+  background-color: #c99280;
+}
+/*# sourceMappingURL=main.css.map */
